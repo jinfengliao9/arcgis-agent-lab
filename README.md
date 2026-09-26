@@ -36,7 +36,7 @@
 | 单次调用耗时分布 | 中位 **1.77 s** · P99 4.30 s · 最大 **245 s** | 最大值为首调冷启动（与实测 239 s 吻合） |
 | 冷启动（`import arcpy`） | **223–239 s** | **两个后端都要付**，热池只是**只付一次** |
 | 基座单元测试 | **86/86 全绿** | 在 ArcGIS Pro **3.6** + Python **3.13.7** 上（上游兼容表只到 3.4） |
-| 本项目测试 | **94 passed** | 指标、归因、统计、帧读取、LLM agent 解析、答案契约 |
+| 本项目测试 | **99 passed** | 指标、归因、统计、帧读取、LLM agent 解析、答案契约 |
 | 金标准任务集 | **29 题** | single_step 12 / multi_step 6 / crs_trap 5 / contract 6 |
 | 被测工具面 | **100 个命名工具** | 刻意排除任意代码执行入口（见下） |
 | 上游回馈 | **4 个 issue** | 见文末，含两个静默失败缺陷 |
@@ -210,7 +210,7 @@ export ARCGIS_MCP_SCRATCH_GDB="$(pwd)/bench/scratch.gdb"
 ```
 
 **没有 ArcGIS 许可也能验证一部分**：`scripts/verify_harness.py` 检查工具面纪律、
-错误分类与轨迹记录（14 项断言），不需要 arcpy。`pytest` 的 94 个测试同样如此 ——
+错误分类与轨迹记录（14 项断言），不需要 arcpy。`pytest` 的 99 个测试同样如此 ——
 这是本项目"可复现"目标的一部分。
 
 ---
@@ -282,5 +282,5 @@ src/arcgis_agent_lab/
 └── report/     build.py                          报告（含指纹冻结与局限声明）
 scripts/        verify_harness / prepare_scenario / run_suite / make_report
 docs/           basement-walkthrough.md           基座技术拆解
-tests/          94 个测试
+tests/          99 个测试
 ```
