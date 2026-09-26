@@ -172,7 +172,7 @@ harness/agents.py    脚本化参考 agent
 上游代码**不在本仓库里**（见「依赖的上游」一节的许可证说明），需要自己取。
 
 ```bash
-git clone https://github.com/<you>/arcgis-agent-lab.git
+git clone https://github.com/jinfengliao9/arcgis-agent-lab.git
 cd arcgis-agent-lab
 
 # 1) 取上游依赖（本项目 import 它，但不 vendor 它）
@@ -277,10 +277,10 @@ src/arcgis_agent_lab/
 ├── data/       generate.py                       确定性合成场景 + 真值
 ├── tasks/      build_tasks.py  tasks.jsonl       29 条金标准任务（真值自动派生）
 ├── harness/    toolset/session/recorder/runner/agents
-├── metrics/    trajectory.py  attribution.py     四层指标 + F1–F8 归因
+├── metrics/    trajectory.py  attribution.py     四层指标 + F1–F9 归因
 ├── stats/      bootstrap.py  paired.py           置信区间 + 配对检验（零依赖）
 └── report/     build.py                          报告（含指纹冻结与局限声明）
 scripts/        verify_harness / prepare_scenario / run_suite / make_report
 docs/           basement-walkthrough.md           基座技术拆解
-tests/          39 个测试
+tests/          94 个测试
 ```

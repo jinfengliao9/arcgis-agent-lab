@@ -18,8 +18,14 @@ Specifically, this project:
     does not itself implement;
   * does not modify, patch or vendor any file of the upstream project.
 
-The upstream NOTICE and LICENSE are therefore reproduced here in full, as the
-Apache License requires of distributed derivative works.
+The upstream LICENSE is therefore reproduced here in full (as ``LICENSE``), as
+the Apache License requires of distributed derivative works.
+
+**Correction**: an earlier version of this file said the upstream NOTICE was
+reproduced here too. Upstream v0.6.6 ships no NOTICE file, so that statement was
+inaccurate -- checked against the v0.6.6 tree, not assumed. Recording the
+correction rather than quietly amending it, because this project's whole subject
+is failures that do not announce themselves.
 
 ---
 

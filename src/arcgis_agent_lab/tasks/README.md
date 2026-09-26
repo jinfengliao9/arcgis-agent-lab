@@ -1,6 +1,6 @@
 # 金标准任务集：设计说明
 
-> 25 条任务，四类：`single_step` 8 / `multi_step` 6 / `crs_trap` 5 / `contract` 6。
+> 29 条任务，四类：`single_step` 12 / `multi_step` 6 / `crs_trap` 5 / `contract` 6。
 > 文件是 `tasks.jsonl`，**由 `build_tasks.py` 从 `bench/synthetic/truth.json` 自动生成** ——
 > 期望数值不是手填的（见下面的"为什么生成而不是手写"）。
 
