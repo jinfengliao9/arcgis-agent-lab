@@ -30,15 +30,38 @@
 ## 关键数字
 
 | 指标 | 值 | 说明 |
-|---|---|---|
-| arcpy 单次调用开销 | **234 s → 1.6 s** | 自研常驻热池后端，约 150 倍 |
-| 6 次图层导入总耗时 | 23.4 min → **4 min 11 s** | 上游默认后端 vs 本项目 |
-| 12 次调用（含预热） | **54 s** | 脚本化参考 agent 的一轮完整运行 |
+|---|---|---|---|
+| **单次调用的边际开销** | **17.6 s → ≈0 s** | 上游 spawn-per-call vs 本项目热池（见下方实测） |
+| **全量评测工具净耗时** | **34.6 分钟**（1085 次调用） | 热池；上游后端同规模约 **5.8 小时** |
+| 单次调用耗时分布 | 中位 **1.77 s** · P99 4.30 s · 最大 **245 s** | 最大值为首调冷启动（与实测 239 s 吻合） |
+| 冷启动（`import arcpy`） | **223–239 s** | **两个后端都要付**，热池只是**只付一次** |
 | 基座单元测试 | **86/86 全绿** | 在 ArcGIS Pro **3.6** + Python **3.13.7** 上（上游兼容表只到 3.4） |
-| 本项目测试 | **60 passed** | 指标、归因、统计、帧读取、LLM agent 解析 |
+| 本项目测试 | **94 passed** | 指标、归因、统计、帧读取、LLM agent 解析、答案契约 |
 | 金标准任务集 | **29 题** | single_step 12 / multi_step 6 / crs_trap 5 / contract 6 |
 | 被测工具面 | **100 个命名工具** | 刻意排除任意代码执行入口（见下） |
-| 上游回馈 | **3 个 issue** | 见文末，含一个静默失败缺陷 |
+| 上游回馈 | **4 个 issue** | 见文末，含两个静默失败缺陷 |
+
+**这些数字怎么复现**：
+
+```bash
+# 后端对比（两个后端收到相同任务/环境/超时，唯一变量是 worker 生命周期）
+python scripts/bench_backends.py warm          # 本项目热池
+python scripts/bench_backends.py subprocess    # 上游默认
+
+# 耗时分布：轨迹里每次调用都记了 duration_ms
+python -c "import json,statistics as st; from pathlib import Path; \
+d=sorted(json.loads(l)['duration_ms'] for l in Path('runs/llm-*.jsonl').read_text().splitlines() if l.strip()); \
+print('median %.2fs, max %.2fs, total %.1f min' % (st.median(d)/1000, d[-1]/1000, sum(d)/60000))"
+
+# 测试
+python -m pytest tests/ -q
+```
+
+**关于"234 s → 1.6 s"这个说法的更正**：本文件早期版本这样写过，
+但那是**拿最坏冷启动与稳态混比** —— 两者量的不是同一件事。
+冷启动 **两个后端都要付**（约 4 分钟，热池只是不用重复付）；
+真正的差别在于**之后每一次调用**：上游 **17.6 s** vs 热池 **≈0 s**。
+在 1085 次调用的规模下，这个差别就是 **5.8 小时 vs 34.6 分钟**。
 
 ---
 
@@ -49,6 +72,22 @@
 基座默认每次调用起一个新 worker，因此**每次**都要付 `import arcpy` 的税。
 上游文档写的是 10–30 秒；本机实测最坏 **239 秒**，导致上游自带的冒烟基准里
 8 个 case 有 2 个直接撞上客户端 240 秒超时。
+
+**实测对比**（`scripts/bench_backends.py`，两个后端收到完全相同的任务、环境与超时）：
+
+```
+本项目 · 常驻热池                    上游默认 · 每次新建进程
+  01 cold            17.43s            01 cold            90.35s
+  02 warm             0.00s            02 warm            17.62s  ← 第二次仍是 17.62s
+  03 warm             0.00s            TOTAL (2 calls)  107.97s
+  04 warm             1.41s
+  05 ping             0.00s
+  06 ping             0.00s
+  TOTAL              18.84s
+```
+
+**注意第二行**：上游后端**第 2 次调用仍然要 17.62 秒** —— 每次新进程都要重做
+Python 层的导入与引擎初始化，即使原生 DLL 已被系统缓存。热池之后是 **0.00 秒**。
 
 本项目实现基座**自己预留但未实现**的热池后端（`ExecutionBackend` Protocol 的另一个实现）：
 
@@ -234,7 +273,7 @@ export ARCGIS_MCP_SCRATCH_GDB="$(pwd)/bench/scratch.gdb"
 
 ```
 src/arcgis_agent_lab/
-├── backends/   warm_worker.py  warm_pool.py     常驻热池（234s → 1.6s）
+├── backends/   warm_worker.py  warm_pool.py     常驻热池（边际开销 17.6s → ≈0s）
 ├── data/       generate.py                       确定性合成场景 + 真值
 ├── tasks/      build_tasks.py  tasks.jsonl       29 条金标准任务（真值自动派生）
 ├── harness/    toolset/session/recorder/runner/agents
