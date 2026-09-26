@@ -1,0 +1,2035 @@
+{
+ "district_summary": [
+  {
+   "district_id": "D01",
+   "parcel_count": 10,
+   "total_area_m2": 8139.261062
+  },
+  {
+   "district_id": "D02",
+   "parcel_count": 10,
+   "total_area_m2": 12924.735952
+  },
+  {
+   "district_id": "D03",
+   "parcel_count": 10,
+   "total_area_m2": 8631.184148
+  }
+ ],
+ "parcel_pair_distances": [
+  {
+   "a_id": "P001",
+   "a_index": 0,
+   "b_id": "P002",
+   "b_index": 1,
+   "distance_m": 22.575332
+  },
+  {
+   "a_id": "P001",
+   "a_index": 0,
+   "b_id": "P003",
+   "b_index": 2,
+   "distance_m": 9.19909
+  },
+  {
+   "a_id": "P005",
+   "a_index": 4,
+   "b_id": "P006",
+   "b_index": 5,
+   "distance_m": 569.061823
+  },
+  {
+   "a_id": "P010",
+   "a_index": 9,
+   "b_id": "P011",
+   "b_index": 10,
+   "distance_m": 319.444878
+  }
+ ],
+ "parcel_vs_buildings": [
+  {
+   "layer": "buildings",
+   "min_distance_m": 89.798479,
+   "parcel_id": "P001",
+   "parcel_index": 0
+  },
+  {
+   "layer": "buildings",
+   "min_distance_m": 0.0,
+   "parcel_id": "P002",
+   "parcel_index": 1
+  },
+  {
+   "layer": "buildings",
+   "min_distance_m": 50.477091,
+   "parcel_id": "P003",
+   "parcel_index": 2
+  },
+  {
+   "layer": "buildings",
+   "min_distance_m": 0.0,
+   "parcel_id": "P004",
+   "parcel_index": 3
+  },
+  {
+   "layer": "buildings",
+   "min_distance_m": 62.143199,
+   "parcel_id": "P005",
+   "parcel_index": 4
+  },
+  {
+   "layer": "buildings",
+   "min_distance_m": 82.558153,
+   "parcel_id": "P006",
+   "parcel_index": 5
+  },
+  {
+   "layer": "buildings",
+   "min_distance_m": 4.568422,
+   "parcel_id": "P007",
+   "parcel_index": 6
+  },
+  {
+   "layer": "buildings",
+   "min_distance_m": 0.0,
+   "parcel_id": "P008",
+   "parcel_index": 7
+  },
+  {
+   "layer": "buildings",
+   "min_distance_m": 24.437336,
+   "parcel_id": "P009",
+   "parcel_index": 8
+  },
+  {
+   "layer": "buildings",
+   "min_distance_m": 81.368899,
+   "parcel_id": "P010",
+   "parcel_index": 9
+  },
+  {
+   "layer": "buildings",
+   "min_distance_m": 23.889416,
+   "parcel_id": "P011",
+   "parcel_index": 10
+  },
+  {
+   "layer": "buildings",
+   "min_distance_m": 24.392436,
+   "parcel_id": "P012",
+   "parcel_index": 11
+  },
+  {
+   "layer": "buildings",
+   "min_distance_m": 41.365193,
+   "parcel_id": "P013",
+   "parcel_index": 12
+  },
+  {
+   "layer": "buildings",
+   "min_distance_m": 92.922478,
+   "parcel_id": "P014",
+   "parcel_index": 13
+  },
+  {
+   "layer": "buildings",
+   "min_distance_m": 95.122297,
+   "parcel_id": "P015",
+   "parcel_index": 14
+  },
+  {
+   "layer": "buildings",
+   "min_distance_m": 50.362761,
+   "parcel_id": "P016",
+   "parcel_index": 15
+  },
+  {
+   "layer": "buildings",
+   "min_distance_m": 6.013196,
+   "parcel_id": "P017",
+   "parcel_index": 16
+  },
+  {
+   "layer": "buildings",
+   "min_distance_m": 103.029404,
+   "parcel_id": "P018",
+   "parcel_index": 17
+  },
+  {
+   "layer": "buildings",
+   "min_distance_m": 99.687221,
+   "parcel_id": "P019",
+   "parcel_index": 18
+  },
+  {
+   "layer": "buildings",
+   "min_distance_m": 16.278626,
+   "parcel_id": "P020",
+   "parcel_index": 19
+  },
+  {
+   "layer": "buildings",
+   "min_distance_m": 31.400397,
+   "parcel_id": "P021",
+   "parcel_index": 20
+  },
+  {
+   "layer": "buildings",
+   "min_distance_m": 28.289472,
+   "parcel_id": "P022",
+   "parcel_index": 21
+  },
+  {
+   "layer": "buildings",
+   "min_distance_m": 97.775977,
+   "parcel_id": "P023",
+   "parcel_index": 22
+  },
+  {
+   "layer": "buildings",
+   "min_distance_m": 72.033667,
+   "parcel_id": "P024",
+   "parcel_index": 23
+  },
+  {
+   "layer": "buildings",
+   "min_distance_m": 45.23592,
+   "parcel_id": "P025",
+   "parcel_index": 24
+  },
+  {
+   "layer": "buildings",
+   "min_distance_m": 0.928822,
+   "parcel_id": "P026",
+   "parcel_index": 25
+  },
+  {
+   "layer": "buildings",
+   "min_distance_m": 89.796015,
+   "parcel_id": "P027",
+   "parcel_index": 26
+  },
+  {
+   "layer": "buildings",
+   "min_distance_m": 46.844024,
+   "parcel_id": "P028",
+   "parcel_index": 27
+  },
+  {
+   "layer": "buildings",
+   "min_distance_m": 93.531228,
+   "parcel_id": "P029",
+   "parcel_index": 28
+  },
+  {
+   "layer": "buildings",
+   "min_distance_m": 158.870727,
+   "parcel_id": "P030",
+   "parcel_index": 29
+  }
+ ],
+ "parcel_vs_facilities": [
+  {
+   "layer": "facilities",
+   "min_distance_m": 129.659009,
+   "parcel_id": "P001",
+   "parcel_index": 0
+  },
+  {
+   "layer": "facilities",
+   "min_distance_m": 107.61853,
+   "parcel_id": "P002",
+   "parcel_index": 1
+  },
+  {
+   "layer": "facilities",
+   "min_distance_m": 117.837599,
+   "parcel_id": "P003",
+   "parcel_index": 2
+  },
+  {
+   "layer": "facilities",
+   "min_distance_m": 83.576569,
+   "parcel_id": "P004",
+   "parcel_index": 3
+  },
+  {
+   "layer": "facilities",
+   "min_distance_m": 175.376882,
+   "parcel_id": "P005",
+   "parcel_index": 4
+  },
+  {
+   "layer": "facilities",
+   "min_distance_m": 199.03648,
+   "parcel_id": "P006",
+   "parcel_index": 5
+  },
+  {
+   "layer": "facilities",
+   "min_distance_m": 36.12769,
+   "parcel_id": "P007",
+   "parcel_index": 6
+  },
+  {
+   "layer": "facilities",
+   "min_distance_m": 91.646081,
+   "parcel_id": "P008",
+   "parcel_index": 7
+  },
+  {
+   "layer": "facilities",
+   "min_distance_m": 27.221366,
+   "parcel_id": "P009",
+   "parcel_index": 8
+  },
+  {
+   "layer": "facilities",
+   "min_distance_m": 153.539087,
+   "parcel_id": "P010",
+   "parcel_index": 9
+  },
+  {
+   "layer": "facilities",
+   "min_distance_m": 322.266643,
+   "parcel_id": "P011",
+   "parcel_index": 10
+  },
+  {
+   "layer": "facilities",
+   "min_distance_m": 42.437982,
+   "parcel_id": "P012",
+   "parcel_index": 11
+  },
+  {
+   "layer": "facilities",
+   "min_distance_m": 43.692088,
+   "parcel_id": "P013",
+   "parcel_index": 12
+  },
+  {
+   "layer": "facilities",
+   "min_distance_m": 254.588947,
+   "parcel_id": "P014",
+   "parcel_index": 13
+  },
+  {
+   "layer": "facilities",
+   "min_distance_m": 48.071039,
+   "parcel_id": "P015",
+   "parcel_index": 14
+  },
+  {
+   "layer": "facilities",
+   "min_distance_m": 152.485046,
+   "parcel_id": "P016",
+   "parcel_index": 15
+  },
+  {
+   "layer": "facilities",
+   "min_distance_m": 454.645445,
+   "parcel_id": "P017",
+   "parcel_index": 16
+  },
+  {
+   "layer": "facilities",
+   "min_distance_m": 136.78461,
+   "parcel_id": "P018",
+   "parcel_index": 17
+  },
+  {
+   "layer": "facilities",
+   "min_distance_m": 72.101719,
+   "parcel_id": "P019",
+   "parcel_index": 18
+  },
+  {
+   "layer": "facilities",
+   "min_distance_m": 106.753132,
+   "parcel_id": "P020",
+   "parcel_index": 19
+  },
+  {
+   "layer": "facilities",
+   "min_distance_m": 120.599196,
+   "parcel_id": "P021",
+   "parcel_index": 20
+  },
+  {
+   "layer": "facilities",
+   "min_distance_m": 145.620217,
+   "parcel_id": "P022",
+   "parcel_index": 21
+  },
+  {
+   "layer": "facilities",
+   "min_distance_m": 153.266181,
+   "parcel_id": "P023",
+   "parcel_index": 22
+  },
+  {
+   "layer": "facilities",
+   "min_distance_m": 100.719126,
+   "parcel_id": "P024",
+   "parcel_index": 23
+  },
+  {
+   "layer": "facilities",
+   "min_distance_m": 140.140573,
+   "parcel_id": "P025",
+   "parcel_index": 24
+  },
+  {
+   "layer": "facilities",
+   "min_distance_m": 68.842905,
+   "parcel_id": "P026",
+   "parcel_index": 25
+  },
+  {
+   "layer": "facilities",
+   "min_distance_m": 0.0,
+   "parcel_id": "P027",
+   "parcel_index": 26
+  },
+  {
+   "layer": "facilities",
+   "min_distance_m": 76.593342,
+   "parcel_id": "P028",
+   "parcel_index": 27
+  },
+  {
+   "layer": "facilities",
+   "min_distance_m": 96.894755,
+   "parcel_id": "P029",
+   "parcel_index": 28
+  },
+  {
+   "layer": "facilities",
+   "min_distance_m": 79.863207,
+   "parcel_id": "P030",
+   "parcel_index": 29
+  }
+ ],
+ "parcel_vs_farmland": [
+  {
+   "farmland_index": 0,
+   "intersection_area_m2": 542.469501,
+   "intersects": true,
+   "overlap_ratio": 1.0,
+   "parcel_area_m2": 542.469501,
+   "parcel_id": "P001",
+   "parcel_index": 0
+  },
+  {
+   "farmland_index": 1,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 542.469501,
+   "parcel_id": "P001",
+   "parcel_index": 0
+  },
+  {
+   "farmland_index": 2,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 542.469501,
+   "parcel_id": "P001",
+   "parcel_index": 0
+  },
+  {
+   "farmland_index": 3,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 542.469501,
+   "parcel_id": "P001",
+   "parcel_index": 0
+  },
+  {
+   "farmland_index": 4,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 542.469501,
+   "parcel_id": "P001",
+   "parcel_index": 0
+  },
+  {
+   "farmland_index": 5,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 542.469501,
+   "parcel_id": "P001",
+   "parcel_index": 0
+  },
+  {
+   "farmland_index": 0,
+   "intersection_area_m2": 0.0,
+   "intersects": true,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 3992.288607,
+   "parcel_id": "P002",
+   "parcel_index": 1
+  },
+  {
+   "farmland_index": 1,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 3992.288607,
+   "parcel_id": "P002",
+   "parcel_index": 1
+  },
+  {
+   "farmland_index": 2,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 3992.288607,
+   "parcel_id": "P002",
+   "parcel_index": 1
+  },
+  {
+   "farmland_index": 3,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 3992.288607,
+   "parcel_id": "P002",
+   "parcel_index": 1
+  },
+  {
+   "farmland_index": 4,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 3992.288607,
+   "parcel_id": "P002",
+   "parcel_index": 1
+  },
+  {
+   "farmland_index": 5,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 3992.288607,
+   "parcel_id": "P002",
+   "parcel_index": 1
+  },
+  {
+   "farmland_index": 0,
+   "intersection_area_m2": 847.950061,
+   "intersects": true,
+   "overlap_ratio": 0.511679,
+   "parcel_area_m2": 1657.191958,
+   "parcel_id": "P003",
+   "parcel_index": 2
+  },
+  {
+   "farmland_index": 1,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 1657.191958,
+   "parcel_id": "P003",
+   "parcel_index": 2
+  },
+  {
+   "farmland_index": 2,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 1657.191958,
+   "parcel_id": "P003",
+   "parcel_index": 2
+  },
+  {
+   "farmland_index": 3,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 1657.191958,
+   "parcel_id": "P003",
+   "parcel_index": 2
+  },
+  {
+   "farmland_index": 4,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 1657.191958,
+   "parcel_id": "P003",
+   "parcel_index": 2
+  },
+  {
+   "farmland_index": 5,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 1657.191958,
+   "parcel_id": "P003",
+   "parcel_index": 2
+  },
+  {
+   "farmland_index": 0,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 388.956723,
+   "parcel_id": "P004",
+   "parcel_index": 3
+  },
+  {
+   "farmland_index": 1,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 388.956723,
+   "parcel_id": "P004",
+   "parcel_index": 3
+  },
+  {
+   "farmland_index": 2,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 388.956723,
+   "parcel_id": "P004",
+   "parcel_index": 3
+  },
+  {
+   "farmland_index": 3,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 388.956723,
+   "parcel_id": "P004",
+   "parcel_index": 3
+  },
+  {
+   "farmland_index": 4,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 388.956723,
+   "parcel_id": "P004",
+   "parcel_index": 3
+  },
+  {
+   "farmland_index": 5,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 388.956723,
+   "parcel_id": "P004",
+   "parcel_index": 3
+  },
+  {
+   "farmland_index": 0,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 614.669735,
+   "parcel_id": "P005",
+   "parcel_index": 4
+  },
+  {
+   "farmland_index": 1,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 614.669735,
+   "parcel_id": "P005",
+   "parcel_index": 4
+  },
+  {
+   "farmland_index": 2,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 614.669735,
+   "parcel_id": "P005",
+   "parcel_index": 4
+  },
+  {
+   "farmland_index": 3,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 614.669735,
+   "parcel_id": "P005",
+   "parcel_index": 4
+  },
+  {
+   "farmland_index": 4,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 614.669735,
+   "parcel_id": "P005",
+   "parcel_index": 4
+  },
+  {
+   "farmland_index": 5,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 614.669735,
+   "parcel_id": "P005",
+   "parcel_index": 4
+  },
+  {
+   "farmland_index": 0,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 259.0384,
+   "parcel_id": "P006",
+   "parcel_index": 5
+  },
+  {
+   "farmland_index": 1,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 259.0384,
+   "parcel_id": "P006",
+   "parcel_index": 5
+  },
+  {
+   "farmland_index": 2,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 259.0384,
+   "parcel_id": "P006",
+   "parcel_index": 5
+  },
+  {
+   "farmland_index": 3,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 259.0384,
+   "parcel_id": "P006",
+   "parcel_index": 5
+  },
+  {
+   "farmland_index": 4,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 259.0384,
+   "parcel_id": "P006",
+   "parcel_index": 5
+  },
+  {
+   "farmland_index": 5,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 259.0384,
+   "parcel_id": "P006",
+   "parcel_index": 5
+  },
+  {
+   "farmland_index": 0,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 1195.347388,
+   "parcel_id": "P007",
+   "parcel_index": 6
+  },
+  {
+   "farmland_index": 1,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 1195.347388,
+   "parcel_id": "P007",
+   "parcel_index": 6
+  },
+  {
+   "farmland_index": 2,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 1195.347388,
+   "parcel_id": "P007",
+   "parcel_index": 6
+  },
+  {
+   "farmland_index": 3,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 1195.347388,
+   "parcel_id": "P007",
+   "parcel_index": 6
+  },
+  {
+   "farmland_index": 4,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 1195.347388,
+   "parcel_id": "P007",
+   "parcel_index": 6
+  },
+  {
+   "farmland_index": 5,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 1195.347388,
+   "parcel_id": "P007",
+   "parcel_index": 6
+  },
+  {
+   "farmland_index": 0,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 604.235697,
+   "parcel_id": "P008",
+   "parcel_index": 7
+  },
+  {
+   "farmland_index": 1,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 604.235697,
+   "parcel_id": "P008",
+   "parcel_index": 7
+  },
+  {
+   "farmland_index": 2,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 604.235697,
+   "parcel_id": "P008",
+   "parcel_index": 7
+  },
+  {
+   "farmland_index": 3,
+   "intersection_area_m2": 563.199526,
+   "intersects": true,
+   "overlap_ratio": 0.932086,
+   "parcel_area_m2": 604.235697,
+   "parcel_id": "P008",
+   "parcel_index": 7
+  },
+  {
+   "farmland_index": 4,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 604.235697,
+   "parcel_id": "P008",
+   "parcel_index": 7
+  },
+  {
+   "farmland_index": 5,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 604.235697,
+   "parcel_id": "P008",
+   "parcel_index": 7
+  },
+  {
+   "farmland_index": 0,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 636.051724,
+   "parcel_id": "P009",
+   "parcel_index": 8
+  },
+  {
+   "farmland_index": 1,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 636.051724,
+   "parcel_id": "P009",
+   "parcel_index": 8
+  },
+  {
+   "farmland_index": 2,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 636.051724,
+   "parcel_id": "P009",
+   "parcel_index": 8
+  },
+  {
+   "farmland_index": 3,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 636.051724,
+   "parcel_id": "P009",
+   "parcel_index": 8
+  },
+  {
+   "farmland_index": 4,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 636.051724,
+   "parcel_id": "P009",
+   "parcel_index": 8
+  },
+  {
+   "farmland_index": 5,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 636.051724,
+   "parcel_id": "P009",
+   "parcel_index": 8
+  },
+  {
+   "farmland_index": 0,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 731.072123,
+   "parcel_id": "P010",
+   "parcel_index": 9
+  },
+  {
+   "farmland_index": 1,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 731.072123,
+   "parcel_id": "P010",
+   "parcel_index": 9
+  },
+  {
+   "farmland_index": 2,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 731.072123,
+   "parcel_id": "P010",
+   "parcel_index": 9
+  },
+  {
+   "farmland_index": 3,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 731.072123,
+   "parcel_id": "P010",
+   "parcel_index": 9
+  },
+  {
+   "farmland_index": 4,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 731.072123,
+   "parcel_id": "P010",
+   "parcel_index": 9
+  },
+  {
+   "farmland_index": 5,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 731.072123,
+   "parcel_id": "P010",
+   "parcel_index": 9
+  },
+  {
+   "farmland_index": 0,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 960.340154,
+   "parcel_id": "P011",
+   "parcel_index": 10
+  },
+  {
+   "farmland_index": 1,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 960.340154,
+   "parcel_id": "P011",
+   "parcel_index": 10
+  },
+  {
+   "farmland_index": 2,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 960.340154,
+   "parcel_id": "P011",
+   "parcel_index": 10
+  },
+  {
+   "farmland_index": 3,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 960.340154,
+   "parcel_id": "P011",
+   "parcel_index": 10
+  },
+  {
+   "farmland_index": 4,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 960.340154,
+   "parcel_id": "P011",
+   "parcel_index": 10
+  },
+  {
+   "farmland_index": 5,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 960.340154,
+   "parcel_id": "P011",
+   "parcel_index": 10
+  },
+  {
+   "farmland_index": 0,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 683.311975,
+   "parcel_id": "P012",
+   "parcel_index": 11
+  },
+  {
+   "farmland_index": 1,
+   "intersection_area_m2": 59.515809,
+   "intersects": true,
+   "overlap_ratio": 0.087099,
+   "parcel_area_m2": 683.311975,
+   "parcel_id": "P012",
+   "parcel_index": 11
+  },
+  {
+   "farmland_index": 2,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 683.311975,
+   "parcel_id": "P012",
+   "parcel_index": 11
+  },
+  {
+   "farmland_index": 3,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 683.311975,
+   "parcel_id": "P012",
+   "parcel_index": 11
+  },
+  {
+   "farmland_index": 4,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 683.311975,
+   "parcel_id": "P012",
+   "parcel_index": 11
+  },
+  {
+   "farmland_index": 5,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 683.311975,
+   "parcel_id": "P012",
+   "parcel_index": 11
+  },
+  {
+   "farmland_index": 0,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 410.767203,
+   "parcel_id": "P013",
+   "parcel_index": 12
+  },
+  {
+   "farmland_index": 1,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 410.767203,
+   "parcel_id": "P013",
+   "parcel_index": 12
+  },
+  {
+   "farmland_index": 2,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 410.767203,
+   "parcel_id": "P013",
+   "parcel_index": 12
+  },
+  {
+   "farmland_index": 3,
+   "intersection_area_m2": 16.874314,
+   "intersects": true,
+   "overlap_ratio": 0.04108,
+   "parcel_area_m2": 410.767203,
+   "parcel_id": "P013",
+   "parcel_index": 12
+  },
+  {
+   "farmland_index": 4,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 410.767203,
+   "parcel_id": "P013",
+   "parcel_index": 12
+  },
+  {
+   "farmland_index": 5,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 410.767203,
+   "parcel_id": "P013",
+   "parcel_index": 12
+  },
+  {
+   "farmland_index": 0,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 1518.687647,
+   "parcel_id": "P014",
+   "parcel_index": 13
+  },
+  {
+   "farmland_index": 1,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 1518.687647,
+   "parcel_id": "P014",
+   "parcel_index": 13
+  },
+  {
+   "farmland_index": 2,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 1518.687647,
+   "parcel_id": "P014",
+   "parcel_index": 13
+  },
+  {
+   "farmland_index": 3,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 1518.687647,
+   "parcel_id": "P014",
+   "parcel_index": 13
+  },
+  {
+   "farmland_index": 4,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 1518.687647,
+   "parcel_id": "P014",
+   "parcel_index": 13
+  },
+  {
+   "farmland_index": 5,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 1518.687647,
+   "parcel_id": "P014",
+   "parcel_index": 13
+  },
+  {
+   "farmland_index": 0,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 960.738983,
+   "parcel_id": "P015",
+   "parcel_index": 14
+  },
+  {
+   "farmland_index": 1,
+   "intersection_area_m2": 960.738983,
+   "intersects": true,
+   "overlap_ratio": 1.0,
+   "parcel_area_m2": 960.738983,
+   "parcel_id": "P015",
+   "parcel_index": 14
+  },
+  {
+   "farmland_index": 2,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 960.738983,
+   "parcel_id": "P015",
+   "parcel_index": 14
+  },
+  {
+   "farmland_index": 3,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 960.738983,
+   "parcel_id": "P015",
+   "parcel_index": 14
+  },
+  {
+   "farmland_index": 4,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 960.738983,
+   "parcel_id": "P015",
+   "parcel_index": 14
+  },
+  {
+   "farmland_index": 5,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 960.738983,
+   "parcel_id": "P015",
+   "parcel_index": 14
+  },
+  {
+   "farmland_index": 0,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 838.971595,
+   "parcel_id": "P016",
+   "parcel_index": 15
+  },
+  {
+   "farmland_index": 1,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 838.971595,
+   "parcel_id": "P016",
+   "parcel_index": 15
+  },
+  {
+   "farmland_index": 2,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 838.971595,
+   "parcel_id": "P016",
+   "parcel_index": 15
+  },
+  {
+   "farmland_index": 3,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 838.971595,
+   "parcel_id": "P016",
+   "parcel_index": 15
+  },
+  {
+   "farmland_index": 4,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 838.971595,
+   "parcel_id": "P016",
+   "parcel_index": 15
+  },
+  {
+   "farmland_index": 5,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 838.971595,
+   "parcel_id": "P016",
+   "parcel_index": 15
+  },
+  {
+   "farmland_index": 0,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 1015.251035,
+   "parcel_id": "P017",
+   "parcel_index": 16
+  },
+  {
+   "farmland_index": 1,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 1015.251035,
+   "parcel_id": "P017",
+   "parcel_index": 16
+  },
+  {
+   "farmland_index": 2,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 1015.251035,
+   "parcel_id": "P017",
+   "parcel_index": 16
+  },
+  {
+   "farmland_index": 3,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 1015.251035,
+   "parcel_id": "P017",
+   "parcel_index": 16
+  },
+  {
+   "farmland_index": 4,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 1015.251035,
+   "parcel_id": "P017",
+   "parcel_index": 16
+  },
+  {
+   "farmland_index": 5,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 1015.251035,
+   "parcel_id": "P017",
+   "parcel_index": 16
+  },
+  {
+   "farmland_index": 0,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 1227.453786,
+   "parcel_id": "P018",
+   "parcel_index": 17
+  },
+  {
+   "farmland_index": 1,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 1227.453786,
+   "parcel_id": "P018",
+   "parcel_index": 17
+  },
+  {
+   "farmland_index": 2,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 1227.453786,
+   "parcel_id": "P018",
+   "parcel_index": 17
+  },
+  {
+   "farmland_index": 3,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 1227.453786,
+   "parcel_id": "P018",
+   "parcel_index": 17
+  },
+  {
+   "farmland_index": 4,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 1227.453786,
+   "parcel_id": "P018",
+   "parcel_index": 17
+  },
+  {
+   "farmland_index": 5,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 1227.453786,
+   "parcel_id": "P018",
+   "parcel_index": 17
+  },
+  {
+   "farmland_index": 0,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 1046.613411,
+   "parcel_id": "P019",
+   "parcel_index": 18
+  },
+  {
+   "farmland_index": 1,
+   "intersection_area_m2": 786.414095,
+   "intersects": true,
+   "overlap_ratio": 0.751389,
+   "parcel_area_m2": 1046.613411,
+   "parcel_id": "P019",
+   "parcel_index": 18
+  },
+  {
+   "farmland_index": 2,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 1046.613411,
+   "parcel_id": "P019",
+   "parcel_index": 18
+  },
+  {
+   "farmland_index": 3,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 1046.613411,
+   "parcel_id": "P019",
+   "parcel_index": 18
+  },
+  {
+   "farmland_index": 4,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 1046.613411,
+   "parcel_id": "P019",
+   "parcel_index": 18
+  },
+  {
+   "farmland_index": 5,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 1046.613411,
+   "parcel_id": "P019",
+   "parcel_index": 18
+  },
+  {
+   "farmland_index": 0,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 1425.311112,
+   "parcel_id": "P020",
+   "parcel_index": 19
+  },
+  {
+   "farmland_index": 1,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 1425.311112,
+   "parcel_id": "P020",
+   "parcel_index": 19
+  },
+  {
+   "farmland_index": 2,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 1425.311112,
+   "parcel_id": "P020",
+   "parcel_index": 19
+  },
+  {
+   "farmland_index": 3,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 1425.311112,
+   "parcel_id": "P020",
+   "parcel_index": 19
+  },
+  {
+   "farmland_index": 4,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 1425.311112,
+   "parcel_id": "P020",
+   "parcel_index": 19
+  },
+  {
+   "farmland_index": 5,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 1425.311112,
+   "parcel_id": "P020",
+   "parcel_index": 19
+  },
+  {
+   "farmland_index": 0,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 1118.257246,
+   "parcel_id": "P021",
+   "parcel_index": 20
+  },
+  {
+   "farmland_index": 1,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 1118.257246,
+   "parcel_id": "P021",
+   "parcel_index": 20
+  },
+  {
+   "farmland_index": 2,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 1118.257246,
+   "parcel_id": "P021",
+   "parcel_index": 20
+  },
+  {
+   "farmland_index": 3,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 1118.257246,
+   "parcel_id": "P021",
+   "parcel_index": 20
+  },
+  {
+   "farmland_index": 4,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 1118.257246,
+   "parcel_id": "P021",
+   "parcel_index": 20
+  },
+  {
+   "farmland_index": 5,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 1118.257246,
+   "parcel_id": "P021",
+   "parcel_index": 20
+  },
+  {
+   "farmland_index": 0,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 766.954181,
+   "parcel_id": "P022",
+   "parcel_index": 21
+  },
+  {
+   "farmland_index": 1,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 766.954181,
+   "parcel_id": "P022",
+   "parcel_index": 21
+  },
+  {
+   "farmland_index": 2,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 766.954181,
+   "parcel_id": "P022",
+   "parcel_index": 21
+  },
+  {
+   "farmland_index": 3,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 766.954181,
+   "parcel_id": "P022",
+   "parcel_index": 21
+  },
+  {
+   "farmland_index": 4,
+   "intersection_area_m2": 766.954181,
+   "intersects": true,
+   "overlap_ratio": 1.0,
+   "parcel_area_m2": 766.954181,
+   "parcel_id": "P022",
+   "parcel_index": 21
+  },
+  {
+   "farmland_index": 5,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 766.954181,
+   "parcel_id": "P022",
+   "parcel_index": 21
+  },
+  {
+   "farmland_index": 0,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 917.745677,
+   "parcel_id": "P023",
+   "parcel_index": 22
+  },
+  {
+   "farmland_index": 1,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 917.745677,
+   "parcel_id": "P023",
+   "parcel_index": 22
+  },
+  {
+   "farmland_index": 2,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 917.745677,
+   "parcel_id": "P023",
+   "parcel_index": 22
+  },
+  {
+   "farmland_index": 3,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 917.745677,
+   "parcel_id": "P023",
+   "parcel_index": 22
+  },
+  {
+   "farmland_index": 4,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 917.745677,
+   "parcel_id": "P023",
+   "parcel_index": 22
+  },
+  {
+   "farmland_index": 5,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 917.745677,
+   "parcel_id": "P023",
+   "parcel_index": 22
+  },
+  {
+   "farmland_index": 0,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 514.597954,
+   "parcel_id": "P024",
+   "parcel_index": 23
+  },
+  {
+   "farmland_index": 1,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 514.597954,
+   "parcel_id": "P024",
+   "parcel_index": 23
+  },
+  {
+   "farmland_index": 2,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 514.597954,
+   "parcel_id": "P024",
+   "parcel_index": 23
+  },
+  {
+   "farmland_index": 3,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 514.597954,
+   "parcel_id": "P024",
+   "parcel_index": 23
+  },
+  {
+   "farmland_index": 4,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 514.597954,
+   "parcel_id": "P024",
+   "parcel_index": 23
+  },
+  {
+   "farmland_index": 5,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 514.597954,
+   "parcel_id": "P024",
+   "parcel_index": 23
+  },
+  {
+   "farmland_index": 0,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 1281.091261,
+   "parcel_id": "P025",
+   "parcel_index": 24
+  },
+  {
+   "farmland_index": 1,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 1281.091261,
+   "parcel_id": "P025",
+   "parcel_index": 24
+  },
+  {
+   "farmland_index": 2,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 1281.091261,
+   "parcel_id": "P025",
+   "parcel_index": 24
+  },
+  {
+   "farmland_index": 3,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 1281.091261,
+   "parcel_id": "P025",
+   "parcel_index": 24
+  },
+  {
+   "farmland_index": 4,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 1281.091261,
+   "parcel_id": "P025",
+   "parcel_index": 24
+  },
+  {
+   "farmland_index": 5,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 1281.091261,
+   "parcel_id": "P025",
+   "parcel_index": 24
+  },
+  {
+   "farmland_index": 0,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 907.034266,
+   "parcel_id": "P026",
+   "parcel_index": 25
+  },
+  {
+   "farmland_index": 1,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 907.034266,
+   "parcel_id": "P026",
+   "parcel_index": 25
+  },
+  {
+   "farmland_index": 2,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 907.034266,
+   "parcel_id": "P026",
+   "parcel_index": 25
+  },
+  {
+   "farmland_index": 3,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 907.034266,
+   "parcel_id": "P026",
+   "parcel_index": 25
+  },
+  {
+   "farmland_index": 4,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 907.034266,
+   "parcel_id": "P026",
+   "parcel_index": 25
+  },
+  {
+   "farmland_index": 5,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 907.034266,
+   "parcel_id": "P026",
+   "parcel_index": 25
+  },
+  {
+   "farmland_index": 0,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 624.648146,
+   "parcel_id": "P027",
+   "parcel_index": 26
+  },
+  {
+   "farmland_index": 1,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 624.648146,
+   "parcel_id": "P027",
+   "parcel_index": 26
+  },
+  {
+   "farmland_index": 2,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 624.648146,
+   "parcel_id": "P027",
+   "parcel_index": 26
+  },
+  {
+   "farmland_index": 3,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 624.648146,
+   "parcel_id": "P027",
+   "parcel_index": 26
+  },
+  {
+   "farmland_index": 4,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 624.648146,
+   "parcel_id": "P027",
+   "parcel_index": 26
+  },
+  {
+   "farmland_index": 5,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 624.648146,
+   "parcel_id": "P027",
+   "parcel_index": 26
+  },
+  {
+   "farmland_index": 0,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 937.017676,
+   "parcel_id": "P028",
+   "parcel_index": 27
+  },
+  {
+   "farmland_index": 1,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 937.017676,
+   "parcel_id": "P028",
+   "parcel_index": 27
+  },
+  {
+   "farmland_index": 2,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 937.017676,
+   "parcel_id": "P028",
+   "parcel_index": 27
+  },
+  {
+   "farmland_index": 3,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 937.017676,
+   "parcel_id": "P028",
+   "parcel_index": 27
+  },
+  {
+   "farmland_index": 4,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 937.017676,
+   "parcel_id": "P028",
+   "parcel_index": 27
+  },
+  {
+   "farmland_index": 5,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 937.017676,
+   "parcel_id": "P028",
+   "parcel_index": 27
+  },
+  {
+   "farmland_index": 0,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 969.172022,
+   "parcel_id": "P029",
+   "parcel_index": 28
+  },
+  {
+   "farmland_index": 1,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 969.172022,
+   "parcel_id": "P029",
+   "parcel_index": 28
+  },
+  {
+   "farmland_index": 2,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 969.172022,
+   "parcel_id": "P029",
+   "parcel_index": 28
+  },
+  {
+   "farmland_index": 3,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 969.172022,
+   "parcel_id": "P029",
+   "parcel_index": 28
+  },
+  {
+   "farmland_index": 4,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 969.172022,
+   "parcel_id": "P029",
+   "parcel_index": 28
+  },
+  {
+   "farmland_index": 5,
+   "intersection_area_m2": 2.593261,
+   "intersects": true,
+   "overlap_ratio": 0.002676,
+   "parcel_area_m2": 969.172022,
+   "parcel_id": "P029",
+   "parcel_index": 28
+  },
+  {
+   "farmland_index": 0,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 949.893977,
+   "parcel_id": "P030",
+   "parcel_index": 29
+  },
+  {
+   "farmland_index": 1,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 949.893977,
+   "parcel_id": "P030",
+   "parcel_index": 29
+  },
+  {
+   "farmland_index": 2,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 949.893977,
+   "parcel_id": "P030",
+   "parcel_index": 29
+  },
+  {
+   "farmland_index": 3,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 949.893977,
+   "parcel_id": "P030",
+   "parcel_index": 29
+  },
+  {
+   "farmland_index": 4,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 949.893977,
+   "parcel_id": "P030",
+   "parcel_index": 29
+  },
+  {
+   "farmland_index": 5,
+   "intersection_area_m2": 0.0,
+   "intersects": false,
+   "overlap_ratio": 0.0,
+   "parcel_area_m2": 949.893977,
+   "parcel_id": "P030",
+   "parcel_index": 29
+  }
+ ]
+}

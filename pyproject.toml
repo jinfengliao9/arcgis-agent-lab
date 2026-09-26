@@ -1,0 +1,51 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "arcgis-agent-lab"
+version = "0.1.0"
+description = "Evaluation and reliability tooling for LLM-driven ArcGIS workflows"
+readme = "PLAN.md"
+requires-python = ">=3.11"
+dependencies = [
+    "arcgis-mcp-bridge>=0.6.6,<0.7",
+    # Scenario generation (data/generate.py) imports these directly; the bridge
+    # does not depend on them, so they must be declared here or a fresh install
+    # fails at import time (Codex red-team P2).
+    "numpy>=1.26",
+    "pyproj>=3.6",
+    "shapely>=2.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest", "ruff"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+# The default temp root (AppData\Local\Temp) is access-denied on this machine;
+# see docs/basement-walkthrough.md. Keep pytest scratch inside the project.
+addopts = "--basetemp=.pytest-tmp"
+
+[tool.ruff]
+line-length = 100
+
+[tool.ruff.lint]
+# Deliberately no `I` (import sorting): the probe and harness scripts must set
+# environment variables before importing the lab package, so their import order
+# is load-bearing. An automatic re-sort would silently break them.
+select = ["E", "F", "W", "UP", "B"]
+ignore = [
+    # Long lines are a poor signal in a codebase whose comments and task text are
+    # largely Chinese: ruff counts characters, so a 60-character Chinese sentence
+    # trips a 100-character limit while carrying less information than 100
+    # characters of English. Readability here is judged by eye, not by column.
+    "E501",
+    # Scripts must set environment variables before importing the lab package
+    # (ARCPY_PYTHON_PATH, ARCGIS_MCP_ALLOWED_ROOTS, ...). Their imports therefore
+    # sit below executable statements by necessity, not by accident.
+    "E402",
+]

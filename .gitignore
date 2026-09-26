@@ -1,0 +1,71 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Virtual environment
+.venv/
+venv/
+
+# Test scratch — see docs/basement-walkthrough.md: the default temp root
+# (AppData\Local\Temp) is access-denied on the development machine, so pytest
+# scratch lives inside the project and must stay out of version control.
+.pytest-tmp/
+.pytest_cache/
+
+# Local scratch
+.tmp/
+
+# Upstream checkout: cloned from GitHub, not vendored. Reproduce with
+#   git clone --depth 1 https://github.com/muend/arcgis-mcp-bridge.git upstream/arcgis-mcp-bridge
+upstream/
+
+# File geodatabases are binary containers with hundreds of internal tables;
+# they do not diff, merge or review. Regenerate with scripts/prepare_scenario.py.
+bench/scratch.gdb/
+
+# Artefacts produced by a run (trajectories, summaries, stray CSV exports).
+# Kept locally as evidence; reproduce rather than commit.
+runs/
+bench/*.csv
+bench/**/*.csv
+
+# Credentials must never enter the repository. The DeepSeek key lives at
+# %USERPROFILE%\.workbuddy\deepseek-key.txt, outside the working tree.
+*-key.txt
+.env
+.env.*
+
+# Editor / OS noise
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+
+# Reports ARE committed: they are the deliverable this project exists to
+# produce. Listed here only to document the intent.
+!reports/
+
+# Model by-products: ArcGIS writes a .xml companion next to every exported
+# table, and analysis tools leave .xlsx behind. Both are run artefacts.
+bench/*.xml
+bench/*.xlsx
+bench/_*.geojson
+bench/_*.json
+
+# Local-only working files. RESUME_DRAFT.md is a personal document and the
+# review bundle is a 280 KB copy of the sources already in this repository --
+# neither belongs in a public repo.
+RESUME_DRAFT.md
+codex-review-bundle.md
+docs/private/
+
+# Model by-products: ArcGIS writes a .xml companion next to every exported
+# table, and analysis tools leave .xlsx behind. Both are run artefacts.
+
+# Local-only working files. RESUME_DRAFT.md is a personal document and the
+# review bundle is a 280 KB copy of the sources already in this repository --
+# neither belongs in a public repo.

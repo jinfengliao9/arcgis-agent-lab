@@ -1,0 +1,46 @@
+{
+ "config": {
+  "extent_m": 1000.0,
+  "farmland_r_max": 160.0,
+  "farmland_r_min": 110.0,
+  "n_buildings": 40,
+  "n_facilities": 10,
+  "n_farmland": 6,
+  "n_parcels": 30,
+  "n_roads": 6,
+  "seed": 42
+ },
+ "counts": {
+  "buildings": 40,
+  "facilities": 10,
+  "farmland": 6,
+  "parcels": 30,
+  "roads": 6
+ },
+ "deliberate_cases": {
+  "P001": "contained in farmland F01 (intersection area == parcel area)",
+  "P002": "tangent to farmland F01 (intersects == True, area == 0)",
+  "P003": "partially overlapping farmland F01",
+  "P004": "disjoint from farmland F01 but within ~60 m"
+ },
+ "layer_crs": {
+  "buildings": 4547,
+  "facilities": 4547,
+  "farmland": 4547,
+  "parcels": 4547,
+  "parcels_geographic": 4326,
+  "roads": 4547
+ },
+ "origin_epsg4547": {
+  "x": 700000.0,
+  "y": 2700000.0
+ },
+ "sha256": {
+  "buildings": "98ab08257859c2ec774bd77b91ddc8d2e84caeb4fb1e514e8c79a064aa4410c1",
+  "facilities": "2c91f79328f8b79891805e1c62f090a4ad64cc341f089bb122aaec16d4f0128d",
+  "farmland": "1869c8ee17a5d3973270eca79ee94287d179d50d96f310494aa922c26e03bfd7",
+  "parcels": "67726dee01ce1085ecf1a531e9c27bb25d577e2212bf1891278f3ec1980872bd",
+  "roads": "82b607ebc1dc91a0a2a4fad85bfaa2348af692c94c09de2529307f6bbc26272e",
+  "truth": "89cb23f7c3ba6b321eca4327ffd05a22780073dd35a2f3504cdb7c93c5c958f6"
+ }
+}

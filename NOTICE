@@ -1,0 +1,58 @@
+arcgis-agent-lab
+Copyright 2026 Liao Jinfeng (https://github.com/jinfengliao9)
+
+---
+
+This product is built on top of software developed at
+**arcgis-mcp-bridge** (https://github.com/muend/arcgis-mcp-bridge),
+Copyright 2026 muend, licensed under the Apache License, Version 2.0.
+
+Specifically, this project:
+
+  * depends on arcgis-mcp-bridge as a library (its tool registry, contract
+    layer, path guard and worker entry point are imported rather than
+    reimplemented);
+  * adds a new execution backend that satisfies the bridge's own
+    `ExecutionBackend` Protocol -- a persistent, pre-imported worker, which the
+    bridge's `execution.py` reserves room for in its class documentation but
+    does not itself implement;
+  * does not modify, patch or vendor any file of the upstream project.
+
+The upstream NOTICE and LICENSE are therefore reproduced here in full, as the
+Apache License requires of distributed derivative works.
+
+---
+
+**Evaluation methodology credits**
+
+The trajectory metrics used here (TAO / TIO / TEM / PEA) and the
+parameter-accuracy idea behind them follow **GeoAgentBench** (GABench,
+arXiv:2604.13888), which introduced trajectory-level scoring for
+tool-augmented spatial analysis.
+
+No code was copied from that work: the metrics here are an independent
+implementation, and the reference sequences are tool-name chains rather than
+GABench's parameter-carrying `toolchain_json`. Where the two could disagree,
+what this repository's code computes is what its reports describe.
+
+The motivation for the whole project comes from a gap that work identified
+implicitly: it evaluates on open-source GIS stacks, because closed-source
+desktop GIS is not reproducible. This project targets exactly that excluded
+case, and provides a licence-free replay mode so its results can be checked
+without ArcGIS.
+
+---
+
+**Third-party runtime dependencies**
+
+  * arcgis-mcp-bridge -- Apache-2.0 (see above)
+  * FastMCP / MCP Python SDK -- MIT
+  * Pydantic -- MIT
+  * Shapely -- BSD-3-Clause
+  * pyproj -- MIT
+  * NumPy -- BSD-3-Clause
+
+ArcGIS Pro and ArcPy are proprietary products of Esri and are **not**
+distributed with this project. Users must supply their own licensed
+installation; the evaluation's decision-layer replay mode is designed to run
+without one.
