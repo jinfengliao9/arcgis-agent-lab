@@ -56,16 +56,10 @@ bench/*.xlsx
 bench/_*.geojson
 bench/_*.json
 
-# Local-only working files. RESUME_DRAFT.md is a personal document and the
-# review bundle is a 280 KB copy of the sources already in this repository --
-# neither belongs in a public repo.
-RESUME_DRAFT.md
+# Local working files: packaged copies of sources already in this repository,
+# plus scratch notes and drafts. None of these are part of the deliverable.
 codex-review-bundle.md
 docs/private/
-
-# Model by-products: ArcGIS writes a .xml companion next to every exported
-# table, and analysis tools leave .xlsx behind. Both are run artefacts.
-
-# Local-only working files. RESUME_DRAFT.md is a personal document and the
-# review bundle is a 280 KB copy of the sources already in this repository --
-# neither belongs in a public repo.
+*DRAFT*.md
+*-draft.md
+drafts/
