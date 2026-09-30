@@ -26,8 +26,8 @@ where = ["src"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
-# The default temp root (AppData\Local\Temp) is access-denied on this machine;
-# see docs/basement-walkthrough.md. Keep pytest scratch inside the project.
+# The default temp root (AppData\Local\Temp) is access-denied on this machine.
+# Keep pytest scratch inside the project.
 addopts = "--basetemp=.pytest-tmp"
 
 [tool.ruff]
