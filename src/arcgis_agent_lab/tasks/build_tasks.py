@@ -35,8 +35,7 @@ from pathlib import Path
 from typing import Any
 from collections.abc import Sequence
 
-#: Reference tool sequences. Names must exist in the bridge's 100-tool registry;
-#: see docs/basement-walkthrough.md for how the registry is organized.
+#: Reference tool sequences. Names must exist in the bridge's 100-tool registry.
 TOOL = {
     "intersect": "intersect_features",
     "calc_geom": "calculate_geometry",
