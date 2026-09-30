@@ -281,6 +281,6 @@ src/arcgis_agent_lab/
 ├── stats/      bootstrap.py  paired.py           置信区间 + 配对检验（零依赖）
 └── report/     build.py                          报告（含指纹冻结与局限声明）
 scripts/        verify_harness / prepare_scenario / run_suite / make_report
-docs/           basement-walkthrough.md           基座技术拆解
+docs/           使用说明 · 上游 issue 草稿 · 红队审核任务书
 tests/          99 个测试
 ```
