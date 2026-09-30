@@ -10,7 +10,7 @@ dist/
 .venv/
 venv/
 
-# Test scratch — see docs/basement-walkthrough.md: the default temp root
+# Test scratch: the default temp root
 # (AppData\Local\Temp) is access-denied on the development machine, so pytest
 # scratch lives inside the project and must stay out of version control.
 .pytest-tmp/
