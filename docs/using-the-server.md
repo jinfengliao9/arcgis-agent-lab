@@ -27,8 +27,8 @@
       "args": ["-m", "arcgis_mcp.server"],
       "env": {
         "ARCPY_PYTHON_PATH": "C:\\Program Files\\ArcGIS\\Pro\\bin\\Python\\envs\\arcgispro-py3\\python.exe",
-        "ARCGIS_MCP_ALLOWED_ROOTS": "E:\\arcgis-agent-lab\\bench",
-        "ARCGIS_MCP_SCRATCH_GDB": "E:\\arcgis-agent-lab\\bench\\scratch.gdb",
+        "ARCGIS_MCP_ALLOWED_ROOTS": "D:\\gis-data\\bench",
+        "ARCGIS_MCP_SCRATCH_GDB": "D:\\gis-data\\bench\\scratch.gdb",
         "ARCGIS_MCP_MAX_WORKERS": "1",
         "ARCGIS_MCP_TOOL_TIMEOUT": "900",
         "ARCGIS_MCP_LOG_LEVEL": "INFO"
@@ -130,7 +130,7 @@
 **步骤**：
 
 1. 把 `ARCGIS_MCP_ALLOWED_ROOTS` 改成你的数据目录，例如
-   `"D:\\GIS\\项目A;E:\\arcgis-agent-lab\\bench"`（可多个，`;` 分隔）
+   `"D:\\GIS\\项目A;D:\\gis-data\\bench"`（可多个，`;` 分隔）
 2. `ARCGIS_MCP_SCRATCH_GDB` 指向你的项目里**已存在**的 File GDB
 3. 重启 WorkBuddy，重新信任
 
